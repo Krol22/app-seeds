@@ -1,0 +1,14 @@
+.commands-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    margin: auto;
+
+    text-align: center;
+    font-size: 2rem;
+
+    .heading__secondary {
+        color: var(--color-orange);
+    }
+}

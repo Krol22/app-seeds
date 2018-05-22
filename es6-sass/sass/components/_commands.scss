@@ -1,0 +1,12 @@
+.commands {
+
+    &__item {
+        display: inline-block;
+        margin-top: 2rem;
+
+        &:not(:last-child)::after {
+            content: ',';
+        }
+    }
+
+}
